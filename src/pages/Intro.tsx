@@ -33,7 +33,7 @@ function Intro() {
           Introduction
         </h1>
         <div className="flex">
-          <img src={Germany} alt="Germany" className="w-100 rounded-md mr-4" />
+          <img src={Germany} alt="Germany" className="w-100  max-h-240rounded-md mr-4" />
           <p className="text-white text-justify">
             Noli Me Tangere was published in 1887 in Berlin, Germany, during the
             late Spanish colonial era in the Philippines. During this time,
