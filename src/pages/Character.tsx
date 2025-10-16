@@ -96,8 +96,8 @@ function Character() {
         <h1 className="text-4xl font-bold mb-4 justify-self-start text-white">Character Stops</h1>
       <div className="flex flex-col gap-20 mt-20">
         {character.map((char, idx) => (
-          <div key={idx} className={`${idx % 2 === 0 ? 'flex-row' : 'flex-row-reverse text-end'} flex`}>
-            <img src={char.image} alt={char.name} className="w-40 md:w-70 rounded-xs" />
+          <div key={idx} className={`${idx % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse md:text-end'} flex flex-col`}>
+            <img src={char.image} alt={char.name} className="w-full mb-4 md:w-70 rounded-xs" />
             <div className="flex flex-col mx-4">
               <h2 className="text-xl font-semibold text-white">{char.name}</h2>
               <p className="text-xs md:text-sm text-white mb-6 max-w-92 ">{char.description}</p>

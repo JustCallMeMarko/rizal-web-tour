@@ -11,7 +11,7 @@ function App() {
         "Made by Mark Cantimbuhan and Mark only"
       </h1>
       <nav>
-        <ul className="flex space-x-4 text-white">
+        <ul className="flex space-x-4 text-xs md:text-md text-white">
           <li><a href="#intro" className="hover:underline">Intro</a></li>
           <li><a href="#character" className="hover:underline">Character</a></li>
           <li><a href="#symbolism" className="hover:underline">Symbolism</a></li>

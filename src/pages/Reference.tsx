@@ -25,7 +25,7 @@ function Reference() {
                             href={src}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-400 hover:underline break-all"
+                            className="text-blue-400 text-xs md:text-md hover:underline break-all"
                         >
                             {src}
                         </a>
