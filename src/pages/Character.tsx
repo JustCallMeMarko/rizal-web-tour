@@ -92,17 +92,17 @@ const character = [
 ];
 function Character() {
   return (
-    <section className="min-h-screen px-94 pt-60" id="character">
+    <section className="min-h-screen px-8 md:px-94 pt-60" id="character">
         <h1 className="text-4xl font-bold mb-4 justify-self-start text-white">Character Stops</h1>
       <div className="flex flex-col gap-20 mt-20">
         {character.map((char, idx) => (
           <div key={idx} className={`${idx % 2 === 0 ? 'flex-row' : 'flex-row-reverse text-end'} flex`}>
-            <img src={char.image} alt={char.name} className="w-70 rounded-xs" />
+            <img src={char.image} alt={char.name} className="w-40 md:w-70 rounded-xs" />
             <div className="flex flex-col mx-4">
-              <h2 className="text-2xl font-semibold text-white">{char.name}</h2>
-              <p className="text-sm text-white mb-6 max-w-92 ">{char.description}</p>
+              <h2 className="text-xl font-semibold text-white">{char.name}</h2>
+              <p className="text-xs md:text-sm text-white mb-6 max-w-92 ">{char.description}</p>
               <h2 className="text-xl font-semibold text-white">Trivia</h2>
-              <p className="text-sm text-white max-w-92 ">{char.trivia}</p>
+              <p className="text-xs md:text-sm text-white max-w-92 ">{char.trivia}</p>
             </div>
           </div>
         ))}

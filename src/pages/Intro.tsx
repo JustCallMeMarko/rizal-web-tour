@@ -8,10 +8,10 @@ function Intro() {
         className="min-h-screen relative flex flex-col justify-center items-center"
         id="intro"
       >
-        <h1 className="text-8xl font-medium font-head text-white">
+        <h1 className="text-6xl md:text-7xl text-center font-medium font-head text-white">
           Noli Me Tangere
         </h1>
-        <p className="text-lg text-white/50">a novel by José Rizal</p>
+        <p className="text-sm md:text-lg text-white/50">a novel by José Rizal</p>
         <motion.img
           initial={{ y: 0 }}
           animate={{
@@ -28,13 +28,13 @@ function Intro() {
           className="absolute w-24 drop-shadow-amber-200 drop-shadow-2xl rotate-10 left-1/2 top-120 transform -translate-x-1/2 "
         />
       </section>
-      <section className="h-fit flex flex-col gap-4 mt-40 px-94">
+      <section className="h-fit flex flex-col gap-4 mt-40 px-8 md:px-94">
         <h1 className="text-4xl font-bold justify-self-start text-white">
           Introduction
         </h1>
         <div className="flex">
-          <img src={Germany} alt="Germany" className="w-100  max-h-240rounded-md mr-4" />
-          <p className="text-white text-justify">
+          <img src={Germany} alt="Germany" className="w-40 sm:w-70 md:w-100  max-h-240rounded-md mr-4" />
+          <p className="text-xs md:text-md text-white text-justify">
             Noli Me Tangere was published in 1887 in Berlin, Germany, during the
             late Spanish colonial era in the Philippines. During this time,
             Philippine society faced widespread corruption, friar exploitation,

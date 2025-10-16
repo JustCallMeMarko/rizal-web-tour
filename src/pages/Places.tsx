@@ -6,7 +6,7 @@ import img5 from "../assets/Berlin/5.png";
 import img6 from "../assets/Berlin/6.png";
 function Places() {
   return (
-    <section className='min-h-screen px-94 pt-60' id="symbolism">
+    <section className='min-h-screen px-4 md:px-94 pt-60' id="symbolism">
         <h1 className="text-4xl font-bold mb-4 justify-self-start text-white">Symbolic Objects and Places</h1>
         <div className=" flex flex-col justify-center items-center mt-10 gap-20">
             {[img1, img2, img3, img4, img5, img6].map((image, idx) => (

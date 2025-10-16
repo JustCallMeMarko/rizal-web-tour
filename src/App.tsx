@@ -6,8 +6,8 @@ import Sources from "./pages/Reference"
 function App() {
   return (
     <>
-    <header className="flex fixed justify-end w-screen px-12 h-[75px] z-100 backdrop-blur-md items-center">
-      <h1 className="text-xs text-white font-medium fixed left-2 top-2">
+    <header className="flex fixed justify-center md:justify-end w-screen px-12 h-[75px] z-100 backdrop-blur-md items-center">
+      <h1 className="text-xs text-white font-medium fixed left-1/2 md:left-1 top-1 transform w-screen text-center -translate-x-1/2 md:translate-0">
         "Made by Mark Cantimbuhan and Mark only"
       </h1>
       <nav>

@@ -7,8 +7,8 @@ import img6 from "../assets/reyes6.png";
 
 function Reflect() {
   return (
-    <section className='min-h-screen px-94 mt-40' id="reflect">
-<h1 className="text-4xl font-bold mb-4 justify-self-start text-white">Symbolic Objects and Places</h1>
+    <section className='min-h-screen px-8 md:px-94 mt-40' id="reflect">
+<h1 className="text-4xl font-bold mb-4 justify-self-start text-white">Theme and Reflection</h1>
         <div className=" flex flex-col justify-center items-center mt-10 gap-20">
             {[img1, img2, img3, img4, img5, img6].map((image, idx) => (
                 <img key={idx} src={image} alt={`Symbolic object/place ${idx}`} className="w-140 rounded-md" />

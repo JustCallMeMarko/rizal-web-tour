@@ -9,7 +9,7 @@ function Reference() {
 
     return (
         <section
-            className=" text-gray-100 flex flex-col items-center py-12"
+            className=" text-gray-100 flex px-8 flex-col items-center py-12"
             id="sources"
         >
             <h1 className="text-3xl font-bold mb-8 border-b-2 border-gray-700 pb-2">
